@@ -1,0 +1,51 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2020-04-13T12:30:01.867298",
+  "cancel": "Cancel",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "failed": "Failed",
+  "@failed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "http_401": "Please login first",
+  "@http_401": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "http_403": "You don't have permission",
+  "@http_403": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "http_429": "Too often, try again later",
+  "@http_429": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "deleteResourceNoPermission": "You don't have permission to delete the {resourceName}",
+  "@deleteResourceNoPermission": {
+    "type": "text",
+    "placeholders": {
+      "resourceName": {}
+    }
+  },
+  "warning": "warning",
+  "@warning": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "feed": "Feed",
+  "@feed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "discuss": "Discuss",
+  "@discuss": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
