@@ -51,6 +51,23 @@ mixin _DefaultMessages {
   _ResourcesNames get resourcesNames => _ResourcesNames(this.locale);
 
   String get warning => Intl.message('warning');
+
+  String get userFollow => Intl.message(
+    'Follow',
+    'name': 'user_follow',
+    locale: this.locale,
+  );
+
+  String userUnfollow => Intl.message(
+    'Unfollow',
+    'name' => 'user_unfollow',
+    locale: this.locale,
+  );
+
+  String userBlock => Intl.message(
+    'Block',
+    'name' => 'user_block',
+  );
 }
 
 class _ResourcesNames {
